@@ -1,0 +1,35 @@
+{
+  "name": "qbundler",
+  "version": "0.0.1",
+  "description": "Bundle apps for single-file distribution",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bengl/qbundler.git"
+  },
+  "bin": "./bundler.js",
+  "keywords": [
+    "bundle",
+    "qdd",
+    "install",
+    "single-file"
+  ],
+  "files": [
+    "bundler.js"
+  ],
+  "author": "Bryan English <bryan@bryanenglish.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bengl/qbundler/issues"
+  },
+  "homepage": "https://github.com/bengl/qbundler#readme",
+  "dependencies": {
+    "memory-fs": "^0.4.1",
+    "qdd": "^1.4.1",
+    "webpack": "^4.19.1",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
